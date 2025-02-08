@@ -1,7 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Projects = () => {
-  // List of projects with details
   const projects = [
     {
       title: "Bg-Changer",
@@ -42,11 +42,6 @@ const Projects = () => {
               key={index}
               className="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
             >
-              {/* <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              /> */}
               <h3 className="text-xl font-semibold text-white mb-2">
                 {project.title}
               </h3>
@@ -54,14 +49,12 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="flex space-x-4">
-                <a
-                  href={project.demoLink}
-                  // target="_blank"
-                  // rel="noopener noreferrer"
+                <NavLink
+                  to={project.demoLink}
                   className="flex-1 text-center bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-300"
                 >
                   Open
-                </a>
+                </NavLink>
               </div>
             </div>
           ))}
