@@ -36,6 +36,43 @@ export default function Home() {
           {/* Background Gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-purple-900 to-transparent opacity-50"></div>
         </div>
+{/* 
+        <>
+          <section class="bg-white py-16 px-8 flex items-center gap-10 mt-10">
+            <div class="skills__desc pr-20 w-1/2">
+              <h3 class="text-2xl font-normal mb-2">Experienced Across Multiple Projects and Technologies</h3>
+              <p class="text-gray-500 text-sm mb-8">Bringing creativity and technical proficiency to building responsive web applications and enhancing user experiences.</p>
+              <div class="skills__actions flex gap-2">
+                <button class="btn border-2 border-gray-800 bg-gray-800 text-white cursor-pointer rounded-lg transition-all duration-500 ease hover:text-gray-800 hover:bg-white hover:border-gray-300 py-1.5 px-5 text-sm font-medium">Work With Me</button>
+                <button class="btn btn--secondary border-2 border-gray-300 bg-white text-gray-800 cursor-pointer rounded-lg transition-all duration-500 ease hover:text-white hover:bg-gray-800 hover:border-gray-800 py-1.5 px-5 text-sm font-medium">Send Email</button>
+              </div>
+            </div>
+            <div class="skills__stats grid grid-cols-4 gap-4 w-1/2">
+              <i class="ri-codepen-line text-6xl flex items-center justify-center py-5"></i>
+              <div class="skill__info bg-gray-300 flex flex-col items-center justify-center p-5">
+                <h5 class="text-center text-2xl font-semibold mb-2">40+</h5>
+                <p class="text-center text-sm text-gray-500 font-medium">JavaScript Projects</p>
+              </div>
+              <i class="ri-reactjs-line text-6xl flex items-center justify-center py-5"></i>
+              <div class="skill__info bg-gray-300 flex flex-col items-center justify-center p-5">
+                <h5 class="text-center text-2xl font-semibold mb-2">12+</h5>
+                <p class="text-center text-sm text-gray-500 font-medium">Remote Projects</p>
+              </div>
+              <div class="skill__info bg-gray-300 flex flex-col items-center justify-center p-5">
+                <h5 class="text-center text-2xl font-semibold mb-2">50+</h5>
+                <p class="text-center text-sm text-gray-500 font-medium">Codepen Projects</p>
+              </div>
+              <i class="ri-rocket-line text-6xl flex items-center justify-center py-5"></i>
+              <div class="skill__info bg-gray-300 flex flex-col items-center justify-center p-5">
+                <h5 class="text-center text-2xl font-semibold mb-2">20+</h5>
+                <p class="text-center text-sm text-gray-500 font-medium">React Projects</p>
+              </div>
+              <i class="ri-remote-control-line text-6xl flex items-center justify-center py-5"></i>
+            </div>
+          </section>
+
+        </> */}
+
       </div>
     </div>
   );
